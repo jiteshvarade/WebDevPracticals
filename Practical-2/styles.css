@@ -1,0 +1,32 @@
+td{
+    text-align: center;
+    color: black;
+    background-color: #f8cee6af;
+}
+
+th{
+    text-align: center;
+    color: white;
+    background: black;
+}
+
+#subHeading{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.subject,#result{
+    text-align: left;
+}
+
+#percentage{
+    text-align: left;
+    width: 600px;
+}
+
+#figures,#words{
+    width: 20%;
+    background-color: black;
+    color: white;
+}
+
