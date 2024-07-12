@@ -49,6 +49,10 @@
             margin-right: 5%;   
         }
 
+        #yearlabel{
+            margin-right: 11%;
+        }
+
         #scholarship{
             margin-left: 4%;
             width: 65%;
@@ -91,12 +95,27 @@
             <input type="textarea" id="address">
         </div>
         <div class="section">
+            <label for="year" id="yearlabel">Year</label>
+            <input type="checkbox" id="year">
+            <label for="first">First</label>
+            <input type="checkbox" id="year">
+            <label for="first">Second</label>
+            <input type="checkbox" id="year">
+            <label for="first">Third</label>
+            <input type="checkbox" id="year">
+            <label for="first">Fourth</label>
+        </div>
+        <div class="section">
             <label for="scholarship">Scholarship:</label>
             <select id="scholarship">
                 <option value="open">Open</option>
                 <option value="obc">OBC</option>
                 <option value="sc/st">SC/ST</option>
             </select>
+        </div>
+        <div class="section">
+            <label for="file">Upload Marksheet</label>
+            <input type="file" id="file">
         </div>
         <div>
             <button type="submit">Submit</button>
