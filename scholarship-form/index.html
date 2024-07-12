@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScholarshipForm</title>
+    <style>
+
+        body{
+            background-color: #f0f2f5;
+        }
+
+        .main{
+            margin-left: 20%;
+            margin-right: 20%;
+            margin-top: 5%;
+            padding-top: 2%;
+            padding-bottom: 2%;
+            padding-left: 12%;
+            padding-right: 12%;
+            text-align: center;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+        }
+
+        .section{
+            margin : 1%;
+            margin-left: 15%;
+            text-align: left;
+            height: 30px;
+        }
+
+        #date,#address,#email{
+            margin-left: 3%;
+            width: 65%;
+        }
+
+        #genderlabel{
+            margin-right: 8%;   
+        }
+
+        #emaillabel{
+            margin-right: 7%;   
+        }
+
+        #addresslabel{
+            margin-right: 5%;   
+        }
+
+        #scholarship{
+            margin-left: 4%;
+            width: 65%;
+        }
+
+        button{
+            background-color: rgb(72, 216, 72);
+            border: 1px solid green;
+            border-radius: 10px;
+            width: 15%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>Scholarship Application Form</h1>
+        <div class="section">
+            <label for="name" >Student Name:</label>
+            <input style="margin-left: 1.6%;" type="text" id="name" placeholder="first">
+            <input type="text" id="name" placeholder="last">
+        </div>
+        <div class="section">
+            <label for="date">Date of birth:</label>
+            <input type="date" id="date">
+        </div>
+        <div class="section">
+            <label for="gender" id="genderlabel">Gender:</label>
+            <input type="radio" id="gender">
+            <label for="gender">Male</label>
+            <input type="radio" id="gender">
+            <label for="gender">Female</label>
+        </div>
+        <div class="section">
+            <label for="email" id="emaillabel">Email:</label>
+            <input type="text" id="email">
+        </div>
+        <div class="section">
+            <label for="address" id="addresslabel">Address:</label>
+            <input type="textarea" id="address">
+        </div>
+        <div class="section">
+            <label for="scholarship">Scholarship:</label>
+            <select id="scholarship">
+                <option value="open">Open</option>
+                <option value="obc">OBC</option>
+                <option value="sc/st">SC/ST</option>
+            </select>
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </div>
+</body>
+</html>
