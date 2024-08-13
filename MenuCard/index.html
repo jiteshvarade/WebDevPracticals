@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MenuCard</title>
+    <style>
+
+        .main {
+            margin-left: 35%;
+            margin-right: 25%;
+            margin-top: 2%;
+            margin-bottom : 2%;
+            background-image: url("assets/pxfuel.jpg");
+            width: 575px;
+            height: 800px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            overflow-x : hidden;
+        }
+
+        #heading {
+            color: yellow;
+            position: relative;
+            padding-left: 100px;
+            font-size: 80px;
+            margin-bottom: 0%;
+        }
+
+        #subHeading {
+            color: white;
+            position: relative;
+            padding-left: 130px;
+            font-size: 60px;
+            margin-top: 0%;
+        }
+
+        .western {
+            color: white;
+            text-align: left;
+            margin-left: 50px;
+        }
+
+        #westernHeading {
+            font-size: 40px;
+        }
+
+        .asian {
+            color : white;
+            text-align: right;
+            margin-right: 50px;
+        }
+
+        #asianHeading {
+            font-size: 40px;
+        }   
+        
+        .content {
+            margin-left: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1 id="heading">Restaurant</h1>
+        <h2 id="subHeading">Food Menu</h2>
+        <div class="western">
+            <h3 id="westernHeading">Western dishes</h3>
+            <h3 class="content">Chicago deep dish pizza <span style="background-color: darkgoldenrod;border-radius: 8px;">$10</span></h3>
+            <h3 class="content">Doble beef hamburge <span style="background-color: darkgoldenrod;border-radius: 8px;">$80</span></h3>
+            <h3 class="content">Barbequee ribs <span style="background-color: darkgoldenrod; border-radius: 8px;">$30</span></h3>
+            <!-- <h3>Buffalo Wings $10</h3>
+            <h3>Meatloaf $80</h3>
+            <h3>Roasted Chicken $10</h3> -->
+        </div>
+        <div class="asian">
+            <h3 id="asianHeading">Asian Dishes</h3>
+        </div>
+    </div>
+</body>
+</html>

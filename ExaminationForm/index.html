@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExaminatinoForm</title>
+    <style>
+
+    </style>
+    <script>
+        function checkForm() {
+            let data = document.querySelectorAll('input');
+        
+            data.forEach(element => {
+                if(!element.value) {
+                    alert(`fill all required fields! ,${element.id}`);
+                    element.value = prompt(`Enter ${element.id}`);
+                }
+            });
+
+            confirm('Form submitted successfully')
+        }
+    </script>
+</head>
+<body>
+    <div class="main">
+        <label for="name">Enter your name : </label>
+        <input type="text" id="name"><br>
+        <label for="regNum">Enter Reg Number :</label>
+        <input type="text" id="regNum"><br>
+        <button type="submit" onclick="checkForm()">Submit</button>
+    </div>
+</body>
+</html>-

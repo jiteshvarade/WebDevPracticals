@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical-8</title>
+    <script>
+        function displayAlert() {
+            alert("inside alert!");
+        }
+
+        function displayPrompt() {
+            prompt("Enter you name : ");
+        }
+
+        function displayConfirm() {
+            confirm("inside confirm!");
+        }
+    </script>
+</head>
+<body>
+    <div class="main" style="margin: 10%; text-align: center;">
+        <button onclick={displayAlert()}>Use to show alert</button>
+        <button onclick={displayPrompt()}>Use to show prompt pop up</button>
+        <button onclick={displayConfirm()}>Use to show confirm pop up</button>
+    </div>
+</body>
+</html>
